@@ -2,6 +2,11 @@
 Changelog for package pcl_conversions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2018-10-21)
+------------------
+* Update package.xml
+* Contributors: Marc Hanheide
+
 0.2.2 (2018-10-21)
 ------------------
 * renaming
