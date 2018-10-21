@@ -1,0 +1,78 @@
+ros-kinetic-pcl-conversions-c11 (0.2.2-0xenial) xenial; urgency=high
+
+  * renaming
+  * renaming
+  * changed name and maintainer
+  * Merge pull request #1 <https://github.com/LCAS/pcl_conversions/issues/1> from ethz-asl/feature/switch_to_pcl_catkin
+    switched from PCL to pcl_catkin dependency
+  * switched from PCL to pcl_catkin dependency
+  * Merge pull request #22 <https://github.com/LCAS/pcl_conversions/issues/22> from ros-perception/paulbovbel-patch-1
+    Remove duplicated line
+  * Remove duplicated line
+  * Contributors: Marc Hanheide, Marko Panjek, Paul Bovbel, root
+
+ -- Marc Hanheide <marc@hanheide.net>  Sun, 21 Oct 2018 00:00:00 -0000
+
+ros-kinetic-pcl-conversions-c11 (0.2.1-0xenial) xenial; urgency=high
+
+  * Added a test for rounding errors in stamp conversion
+    for some values the test fails.
+  * add pcl::PointCloud to Image msg converter for extracting the rgb component of a cloud
+  * Contributors: Brice Rebsamen, Lucid One, Michael Ferguson, Paul Bovbel
+
+ -- Marc Hanheide <marc@hanheide.net>  Mon, 08 Jun 2015 00:00:00 -0000
+
+ros-kinetic-pcl-conversions-c11 (0.2.0-0xenial) xenial; urgency=high
+
+  * Added conversions for stamp types
+  * update maintainer info, add eigen dependency
+  * fix Eigen dependency
+  * Make pcl_conversions run_depend on libpcl-all-dev
+  * Contributors: Brice Rebsamen, Paul Bovbel, Scott K Logan, William Woodall
+
+ -- Marc Hanheide <marc@hanheide.net>  Thu, 10 Apr 2014 00:00:00 -0000
+
+ros-kinetic-pcl-conversions-c11 (0.1.5-0xenial) xenial; urgency=high
+
+  * Use new pcl rosdep keys (libpcl-all and libpcl-all-dev)
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 27 Aug 2013 00:00:00 -0000
+
+ros-kinetic-pcl-conversions-c11 (0.1.4-0xenial) xenial; urgency=high
+
+  * Fixup dependencies and CMakeLists.txt:
+    
+      * Added a versioned dependency on pcl, fixes #1 <https://github.com/ros-perception/pcl_conversions/issues/1>
+      * Added a dependency on pcl_msgs, fixes #2 <https://github.com/ros-perception/pcl_conversions/issues/2>
+      * Wrapped the test target in a CATKIN_ENABLE_TESTING check
+    
+
+ -- Marc Hanheide <marc@hanheide.net>  Sat, 13 Jul 2013 00:00:00 -0000
+
+ros-kinetic-pcl-conversions-c11 (0.1.3-0xenial) xenial; urgency=high
+
+  * Add missing dependency on roscpp
+  * Fixup tests and pcl usage in CMakeList.txt
+
+ -- Marc Hanheide <marc@hanheide.net>  Sat, 13 Jul 2013 00:00:00 -0000
+
+ros-kinetic-pcl-conversions-c11 (0.1.2-0xenial) xenial; urgency=high
+
+  * small fix for conversion functions
+
+ -- Marc Hanheide <marc@hanheide.net>  Fri, 12 Jul 2013 00:00:00 -0000
+
+ros-kinetic-pcl-conversions-c11 (0.1.1-0xenial) xenial; urgency=high
+
+  * Fix find_package bug with pcl
+
+ -- Marc Hanheide <marc@hanheide.net>  Wed, 10 Jul 2013 00:00:00 -0000
+
+ros-kinetic-pcl-conversions-c11 (0.1.0-0xenial) xenial; urgency=high
+
+  * Initial release
+  * This package is designed to allow users to more easily convert between pcl-1.7+ types and ROS message types
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 09 Jul 2013 21:49:26 +0000
+
+
